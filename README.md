@@ -19,7 +19,7 @@ Serves as the core of the token distribution process, managing the economics of 
 A suite of tests developed using Foundry’s framework to test the functionality and security of the Distributor contract. It checks that all components of the token distribution process, including token creation, fee management, and security measures, operate as intended under different scenarios.
 
 ## Licensing
-- The CustomERC20m DeployDistributor and DistributorTest contracts are under the MIT license.
+- The CustomERC20, DeployDistributor and DistributorTest contracts are under the MIT license.
 - The Distributor contract is released under the GPL 3 license.
 
 This project is a personal effort and is intended for developers looking for a basic framework to manage ERC20 token distribution. It is recommended to perform comprehensive testing and consider additional security audits before using it in a production environment.
