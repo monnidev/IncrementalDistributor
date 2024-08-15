@@ -1,3 +1,7 @@
+# Disclaimer
+
+This code is part of a small personal project and is not intended for use in production environments. It has not been thoroughly tested, nor has it undergone any form of security audit. Use this code at your own risk, and be aware that it may contain bugs, vulnerabilities, or other issues that could lead to unexpected behavior.
+
 # Incremental Distributor
 
 ## Overview
@@ -18,8 +22,35 @@ Serves as the core of the token distribution process, managing the economics of 
 ### DistributorTest Contract
 A suite of tests developed using Foundry’s framework to test the functionality and security of the Distributor contract. It checks that all components of the token distribution process, including token creation, fee management, and security measures, operate as intended under different scenarios.
 
+## Getting Started
+
+### Requirements
+
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [foundry](https://getfoundry.sh/)
+  - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
+
+### Installation
+
+Clone the repository and compile contracts
+```bash 
+git clone https://github.com/monnidev/IncrementalDistributor
+code IncrementalDistributor
+```
+
+### Build
+
+```
+forge build
+```
+
+### Test
+
+```
+forge test
+```
+
 ## Licensing
 - The CustomERC20, DeployDistributor and DistributorTest contracts are under the MIT license.
 - The Distributor contract is released under the GPL 3 license.
-
-This project is a personal effort and is intended for developers looking for a basic framework to manage ERC20 token distribution. It is recommended to perform comprehensive testing and consider additional security audits before using it in a production environment.
