@@ -5,7 +5,7 @@ This code is part of a small personal project and is not intended for use in pro
 # Incremental Distributor
 
 ## Overview
-Incremental Distributor provides a set of smart contracts for managing the creation and distribution of ERC20 tokens. The contract acts as a deployer and distributor of ERC20 tokens with a linear price increase. The token creator can set various parameters which will influence both deployment and distribution.
+Incremental Distributor provides a set of smart contracts for managing the creation and distribution of ERC20 tokens. The main contract acts as a deployer and distributor of ERC20 tokens with a linear price increase. The token creator can set various parameters which will influence both deployment and distribution.
 
 ## Components
 This project consists of four main Solidity contracts:
